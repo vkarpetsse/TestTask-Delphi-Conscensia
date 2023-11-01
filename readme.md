@@ -10,6 +10,7 @@ The data has to be stored in any database (SQL Server or others)
   **Expected Result:** Delphi project with possibility to compile and the database's structure.
 ##
 
-![Main form](./screenshot-01.png "Main form") {align=center}
+1. create database on MSSQQL Server
+2. run database-script.sql or restore database from test.bak file
 
-
+![Main form](./screenshot-01.png "Main form")

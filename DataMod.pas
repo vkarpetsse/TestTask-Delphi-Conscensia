@@ -59,6 +59,7 @@ procedure TDM.DataModuleCreate(Sender: TObject);
 begin
   if DM.ADOConnection.Connected then
     DM.ADOConnection.Close;
+  DM.ADOConnection.ConnectionString := EmptyStr;
 end;
 
 procedure TDM.Disconnect;

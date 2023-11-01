@@ -1,5 +1,4 @@
-USE [test]
-go
+
 
 DROP TABLE IF EXISTS dbo.Students;
 DROP TABLE IF EXISTS dbo.Groups;

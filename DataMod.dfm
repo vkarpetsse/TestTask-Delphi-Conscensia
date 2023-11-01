@@ -3,11 +3,6 @@ object DM: TDM
   Height = 357
   Width = 421
   object ADOConnection: TADOConnection
-    Connected = True
-    ConnectionString = 
-      'Provider=SQLNCLI11.1;Integrated Security=SSPI;Persist Security I' +
-      'nfo=False;User ID="";Initial Catalog=test;Data Source=DESKTOP-RQ' +
-      '6O32L;Initial File Name="";Server SPN=""'
     LoginPrompt = False
     Mode = cmShareDenyNone
     Provider = 'SQLNCLI11.1'

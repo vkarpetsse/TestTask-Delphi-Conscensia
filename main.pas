@@ -141,7 +141,7 @@ begin
   except
      on E:Exception do
      begin
-      MessageDlg(format('Cannot connect to database.\nError: %s', [E.Message]), TMsgDlgType.mtError, [TMsgDlgBtn.mbOK], 0);
+      MessageDlg(format('Cannot connect to database.'+ #13#10+'Error: %s', [E.Message]), TMsgDlgType.mtError, [TMsgDlgBtn.mbOK], 0);
       Exit;
      end;
   end;
